@@ -1,0 +1,61 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+header a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header input {
+  background: rgba(31, 41, 55, 0.6);
+  font-size: 16px;
+  color: #fff;
+}
+
+#myBlog {
+  font-size: 18px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.title p {
+  font-size: 14px;
+  line-height: 200%;
+  color: #abafb5;
+}
+
+.title h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 158%;
+  color: #fff;
+}
+
+.title h2 {
+  font-size: 16px;
+  line-height: 175%;
+  color: #fff;
+}
+
+article {
+  color: #fff;
+}
+
+.article_main {
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.article_second {
+  font-size: 16px;
+  line-height: 187%;
+}
+
+footer > p {
+  font-size: 16px;
+  line-height: 175%;
+  color: #abafb5;
+}
