@@ -1,0 +1,99 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+article {
+  color: #fff;
+}
+
+nav {
+  margin: 80px 0;
+}
+
+nav a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav input {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 100px;
+  height: 40px;
+}
+
+menu {
+  list-style: none;
+  padding: 0;
+}
+
+header input {
+  background: rgba(31, 41, 55, 0.6);
+  font-size: 16px;
+  color: #fff;
+}
+
+section {
+  margin-bottom: 90px;
+}
+
+footer > p {
+  font-size: 16px;
+  line-height: 175%;
+  color: #abafb5;
+}
+
+.title {
+  margin-bottom: 69px;
+}
+
+.title h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 158%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.title h2 {
+  font-size: 16px;
+  line-height: 175%;
+  color: #fff;
+}
+
+.title p {
+  font-size: 14px;
+  line-height: 200%;
+  color: #abafb5;
+  margin-bottom: 14px;
+}
+
+.title > img {
+  border-radius: 5px;
+  width: 896px;
+  height: 594px;
+}
+
+.author {
+  margin-bottom: 28px;
+}
+
+.article_main {
+  font-size: 20px;
+  line-height: 160%;
+  margin-bottom: 35px;
+}
+
+.article_second {
+  font-size: 16px;
+  line-height: 187%;
+  margin-bottom: 25px;
+}
+
+#myBlog {
+  font-size: 18px;
+  font-size: 16px;
+  color: #fff;
+}
