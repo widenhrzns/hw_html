@@ -3,10 +3,30 @@ body {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
 }
 
-header a {
+article {
+  color: #fff;
+}
+
+nav {
+  margin: 80px 0;
+}
+
+nav a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
+}
+
+nav input {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 100px;
+  height: 40px;
+}
+
+menu {
+  list-style: none;
+  padding: 0;
 }
 
 header input {
@@ -15,16 +35,18 @@ header input {
   color: #fff;
 }
 
-#myBlog {
-  font-size: 18px;
-  font-size: 16px;
-  color: #fff;
+section {
+  margin-bottom: 90px;
 }
 
-.title p {
-  font-size: 14px;
-  line-height: 200%;
+footer > p {
+  font-size: 16px;
+  line-height: 175%;
   color: #abafb5;
+}
+
+.title {
+  margin-bottom: 69px;
 }
 
 .title h1 {
@@ -32,6 +54,7 @@ header input {
   font-size: 24px;
   line-height: 158%;
   color: #fff;
+  margin-bottom: 30px;
 }
 
 .title h2 {
@@ -40,22 +63,37 @@ header input {
   color: #fff;
 }
 
-article {
-  color: #fff;
+.title p {
+  font-size: 14px;
+  line-height: 200%;
+  color: #abafb5;
+  margin-bottom: 14px;
+}
+
+.title > img {
+  border-radius: 5px;
+  width: 896px;
+  height: 594px;
+}
+
+.author {
+  margin-bottom: 28px;
 }
 
 .article_main {
   font-size: 20px;
   line-height: 160%;
+  margin-bottom: 35px;
 }
 
 .article_second {
   font-size: 16px;
   line-height: 187%;
+  margin-bottom: 25px;
 }
 
-footer > p {
+#myBlog {
+  font-size: 18px;
   font-size: 16px;
-  line-height: 175%;
-  color: #abafb5;
+  color: #fff;
 }
