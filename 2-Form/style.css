@@ -1,11 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: #089fe0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #ffc4e7;
+  height: 100vh;
+  background: linear-gradient(to right, #f39494 0%, #ffeaea 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
-  background-color: #fffefe;
+  width: 582px;
+  height: 573px;
+  border-radius: 10px;
+  background: #fffefe;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 0;
+}
+
+.formHat {
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -14,27 +42,93 @@ h1 {
   color: #333;
 }
 
-p {
+.formHat p {
   font-size: 18px;
   color: #666;
 }
 
-a {
-  color: #089fe0;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px 0;
+  width: 374px;
 }
 
 input {
-  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  width: 100%;
+  height: 44px;
+  background: #f5f5f5;
+  padding: 9px 11px;
 }
 
-label {
-  font-size: 16px;
-  color: #999;
+input:focus {
+  outline: none;
+  background: #fff;
+}
+
+input::placeholder {
   font-style: italic;
 }
 
+.userName {
+  display: flex;
+  gap: 1px;
+}
+
+#name {
+  border-radius: 5px 0 0 5px;
+}
+
+#surname {
+  border-radius: 0 5px 5px 0;
+}
+
 button {
-  background-color: #089fe0;
-  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 44px;
+  background: #089fe0;
+  transition: background 0.5s ease-out, transform 0.5s ease-out;
   font-size: 18px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0892cd;
+  transform: scale(1.04, 1.04);
+}
+
+button:active {
+  background: #0980b3;
+  transform: scale(1.06, 1.06);
+}
+
+button > img {
+  position: absolute;
+  right: 24px;
+  bottom: 10px;
+}
+
+.acceptForm {
+  display: flex;
+  gap: 5px;
+}
+
+.acceptForm > input {
+  width: 15px;
+  height: 15px;
+}
+
+.acceptForm {
+  font-size: 14px;
+  color: #666;
+}
+
+.acceptForm a {
+  text-decoration: none;
 }

@@ -8,8 +8,10 @@
   </head>
   <body>
     <main>
-      <h1>Регистрация</h1>
-      <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+      <div class="formHat">
+        <h1>Регистрация</h1>
+        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+      </div>
       <form action="#">
         <div>
           <label for="company"></label>
@@ -22,7 +24,7 @@
             placeholder="Компания"
           />
         </div>
-        <div>
+        <div class="userName">
           <label for="name"></label>
           <input
             type="text"
@@ -53,8 +55,11 @@
             placeholder="E-mail"
           />
         </div>
-        <button>Зарегистрироваться</button>
-        <div>
+        <button>
+          Зарегистрироваться
+          <img src="./img/Arrow.svg" alt="Изображение стрелки на кнопке" />
+        </button>
+        <div class="acceptForm">
           <input
             type="checkbox"
             required
